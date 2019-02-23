@@ -127,3 +127,16 @@ ul{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/* 图表 */
+.lt_main .echarts_left,
+.lt_main .echarts_right{
+    width: 48%;
+    height: 400px;
+}
+
+
+
+
+
+
