@@ -135,7 +135,11 @@ ul{
     height: 400px;
 }
 
-
+.table.table-bordered tr th ,
+.table.table-bordered tr td {
+    text-align: center;
+    vertical-align: middle;
+} 
 
 
 
