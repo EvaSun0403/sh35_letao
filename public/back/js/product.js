@@ -86,7 +86,8 @@ $(function () {
             if (picArr.length > 3) {
                 //删除最后一张
                 picArr.pop();
-                $('#imgBox img:last-of-type').remove();
+                // $('#imgBox img:last-of-type').remove();
+                $('#imgBox img:last-child').remove();
                 // console.log(picArr);
             }
             if(picArr.length === 3){
