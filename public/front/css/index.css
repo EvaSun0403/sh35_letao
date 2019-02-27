@@ -1,0 +1,37 @@
+.lt_main .lt_nav{
+    padding: 10px;
+}
+.lt_main .lt_nav ul li {
+    float: left;
+    width: 33.3%;
+}
+.lt_product {
+    padding: 10px;
+}
+.lt_product ul li{
+    float: left;
+    width: 48%;
+    margin-bottom: 20px;
+}
+.lt_product ul li a{
+    display: block;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+.lt_product ul li:nth-child(2n+1){
+    margin-right: 4%;
+}
+.lt_product ul li img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.lt_product ul li .price{
+    color: red;
+}
+.lt_product ul li .oldPrice{
+    text-decoration: line-through;
+}
+
